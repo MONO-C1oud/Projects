@@ -1,0 +1,22 @@
+<html>
+
+<body>
+	<h2>	<a href="/">Home</a>	</h2>
+
+	<h1> Agents list: </h1>
+
+	{% for i in threads %}
+	
+	<h3> {{ i.name }} </h3>
+	<p> {{ ips[threads.index(i)] }} </p>
+	<p> connection status: {{ activecon[threads.index(i)] }} </p>
+	<h3><a href="http://127.0.0.1:5000/{{ i.name }}/executecmd">Execute commands</a></h3>
+	<p>------------------------------------------------------------</p>
+
+	{% endfor %}
+
+	<br>
+
+
+</body>
+</html>
