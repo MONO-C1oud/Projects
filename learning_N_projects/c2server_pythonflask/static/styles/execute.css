@@ -1,0 +1,66 @@
+.container{
+    font-family:sans-serif;
+    font-size:20px;
+    max-height: 600px;
+    text-align: center;
+    /* background-color: #222; */
+    background-repeat: no-repeat;
+    background-image: url(ACMPost3\ copy.jpg);
+    background-size: cover;
+    color:aliceblue
+}
+
+
+ h1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+h2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#d2 button{
+    width: 250px;
+    height: 50px;
+    border-radius:20px;
+    border-color: rgb(52, 1, 1);
+    position: relative;
+    background-image: url(ACMPost3\ copy.jpg);
+    color: aliceblue;
+ }
+#d2 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#f1 button{
+    width: 100px;
+    height: 30px;
+    border-radius:20px;
+    border-color: rgb(52, 1, 1);
+    position: relative;
+    background-image: url(ACMPost3\ copy.jpg);
+    color: aliceblue;
+ }
+ #i1{
+    width: 250px;
+    height: 30px;
+    border-radius:10px;
+    border-color: rgb(52, 1, 1);
+    position: relative;
+    background-image: url(ACMPost3\ copy.jpg);
+    color: aliceblue;
+ }
+ 
+#t1{
+    border-radius:10px;
+    border-color: rgb(52, 1, 1);
+    position: relative;
+    background-image: url(ACMPost3\ copy.jpg);
+    color: aliceblue;
+}
+p{
+    text-align: center;
+}
+#p1{
+    font-size: 17px;
+}

