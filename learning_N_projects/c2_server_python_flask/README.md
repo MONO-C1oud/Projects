@@ -5,6 +5,7 @@
 To run the server just `git clone` and use run this command:
   
     python3 flask_server.py
+    pip3 install pynput
     
 Run the `client.py` script on the victim machines after changing the ip to create a botnet.
 
